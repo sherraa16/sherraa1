@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sherraa{
+    width: 300px;
+    height: 90vh;
+    border: 20px solid blue;
+    margin: 20px auto;
+    background-color: black;
+}
+.sherraa1{
+    width: 260px;
+    height: 85.2vh;
+    background-color: blue;
+    margin: 1px;
+
+}
+.sherraa2{
+    width: 70px;
+    height: 15px;
+    background-color: rgb(3, 1, 1);  
+    position: relative;
+    top: 40vh;
+    left: 20px;
+    border-radius: 50%;
+}
+.sherraa:hover .sherraa1{
+    transition: all 5s;
+    transform:rotatey(180deg);
+    margin: 0 260px;
+    background-color: rgb(7, 241, 85);    
+}
+.sherraa:hover{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+.sherraa3{
+    width: 220px;
+    height: 220px;
+    background-color: rgb(231, 134, 22);
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sherraa4{
+    width: 93px;
+    height: 93px;
+    margin: 8px;
+    background-color: #fff;
+}
